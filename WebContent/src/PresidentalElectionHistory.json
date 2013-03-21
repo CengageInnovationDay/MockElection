@@ -1,0 +1,789 @@
+{
+	years: [2012,2008,2004,2000]
+	2012: {
+		candidates: [
+			{
+				name: 'Barack Obama',
+				party: 'Democratic',
+				index: 'bo'
+			},
+			{
+				name: 'Mitt Romney',
+				party: 'Republican',
+				index: 'mr'
+			},
+			{
+				name: 'Gary Johnson',
+				party: 'Libertarian',
+				index: 'gj'
+			}
+		],
+		states: {
+			AL: {
+				totalVotes: 2074338,
+				bo: {
+					totalVotes: 795696,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 1255925,
+					electoralPoints: 9
+				},
+				gj: {
+					totalVotes: 12328,
+					electoralPoints: 0
+				}
+			},
+			AK: {
+				totalVotes: 300495,
+				bo: {
+					totalVotes: 122640,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 164676,
+					electoralPoints: 3
+				},
+				gj: {
+					totalVotes: 7392,
+					electoralPoints: 0
+				}
+			},
+			AZ: {
+				totalVotes: 2299254,
+				bo: {
+					totalVotes: 1025232,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 1233654,
+					electoralPoints: 11
+				},
+				gj: {
+					totalVotes: 32100,
+					electoralPoints: 0
+				}
+			},
+			AR: {
+				totalVotes: 1069468,
+				bo: {
+					totalVotes: 394409,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 647744,
+					electoralPoints: 6
+				},
+				gj: {
+					totalVotes: 16276,
+					electoralPoints: 0
+				}
+			},
+			CA: {
+				totalVotes: 13038547,
+				bo: {
+					totalVotes: 7854285,
+					electoralPoints: 55
+				},
+				mr: {
+					totalVotes: 4839958,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 16276,
+					electoralPoints: 0
+				}
+			},
+			CO: {
+				totalVotes: 2569520,
+				bo: {
+					totalVotes: 1323101,
+					electoralPoints: 9
+				},
+				mr: {
+					totalVotes: 1185243,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 35545,
+					electoralPoints: 0
+				}
+			},
+			CT: {
+				totalVotes: 1558960,
+				bo: {
+					totalVotes: 905083,
+					electoralPoints: 7
+				},
+				mr: {
+					totalVotes: 634892,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 12580,
+					electoralPoints: 0
+				}
+			},
+			DE: {
+				totalVotes: 413921,
+				bo: {
+					totalVotes: 242584,
+					electoralPoints: 3
+				},
+				mr: {
+					totalVotes: 165484,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 3882,
+					electoralPoints: 0
+				}
+			},
+			DC: {
+				totalVotes: 293764,
+				bo: {
+					totalVotes: 267070,
+					electoralPoints: 3
+				},
+				mr: {
+					totalVotes: 21381,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 2083,
+					electoralPoints: 0
+				}
+			},
+			FL: {
+				totalVotes: 8474179,
+				bo: {
+					totalVotes: 4237756,
+					electoralPoints: 29
+				},
+				mr: {
+					totalVotes: 4163447,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 44726,
+					electoralPoints: 0
+				}
+			},
+			GA: {
+				totalVotes: 3900050,
+				bo: {
+					totalVotes: 1773827,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 2078688,
+					electoralPoints: 16
+				},
+				gj: {
+					totalVotes: 45324,
+					electoralPoints: 0
+				}
+			},
+			HI: {
+				totalVotes: 434697,
+				bo: {
+					totalVotes: 306658,
+					electoralPoints: 4
+				},
+				mr: {
+					totalVotes: 121015,
+					electoralPoints: 0
+				},
+				gj: {
+					totalVotes: 3840,
+					electoralPoints: 0
+				}
+			},
+			ID: {
+				totalVotes: 652274,
+				bo: {
+					totalVotes: 212787,
+					electoralPoints: 0
+				},
+				mr: {
+					totalVotes: 420911,
+					electoralPoints: 4
+				},
+				gj: {
+					totalVotes: 9453,
+					electoralPoints: 0
+				}
+			},
+			IL: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			IN: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			IA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			KS: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			KY: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			LA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			ME: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MD: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MI: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MN: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MS: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MO: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			MT: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NE: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NV: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NH: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NJ: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NM: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NY: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			NC: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			ND: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			OH: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			OK: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			OR: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			PA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			RI: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			SC: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			SD: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			TN: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			TX: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			UT: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			VT: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			VA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			WA: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			WV: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			WI: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			},
+			WY: {
+				totalVotes: 453423665344232,
+				bo: {
+					totalVotes: 2342342341,
+					electoralPoints: 22
+				},
+				mr: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				},
+				gj: {
+					totalVotes: 234234233,
+					electoralPoints:1
+				}
+			}
+		}
+	}
+}
