@@ -1,0 +1,22 @@
+SVG .state{
+	fill: #d3d3d3;
+	stroke: #ffffff;
+	stroke-opacity: 1;
+	stroke-width: 0.75;
+	stroke-miterlimit: 4;
+	stroke-dasharray: none;
+}
+
+SVG .state:hover{
+	stroke-width: 3;
+	stroke: #FFFF00;
+	cursor: hand;
+}
+
+SVG .state.red{
+	fill: #FF0000;
+}
+
+SVG .state.blue{
+	fill: #0000FF;
+}

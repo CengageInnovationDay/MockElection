@@ -1,5 +1,6 @@
+//http://en.wikipedia.org/wiki/United_States_presidential_election,_2012
 {
-	years: [2012,2008,2004,2000]
+	years: [2012,2008,2004,2000],
 	2012: {
 		candidates: [
 			{
@@ -515,273 +516,273 @@
 				}
 			},
 			NC: {
-				totalVotes: 453423665344232,
+				totalVotes: 4505372,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 2178391,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 2270395,
+					electoralPoints: 15
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 44515,
+					electoralPoints: 0
 				}
 			},
 			ND: {
-				totalVotes: 453423665344232,
+				totalVotes: 322932,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 124966,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 188320,
+					electoralPoints: 3
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 5238,
+					electoralPoints: 0
 				}
 			},
 			OH: {
-				totalVotes: 453423665344232,
+				totalVotes: 5580840,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 2827710,
+					electoralPoints: 18
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 2661433,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 49493,
+					electoralPoints: 0
 				}
 			},
 			OK: {
-				totalVotes: 453423665344232,
+				totalVotes: 1334872,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 443547,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 891325,
+					electoralPoints: 7
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 0,
+					electoralPoints: 0
 				}
 			},
 			OR: {
-				totalVotes: 453423665344232,
+				totalVotes: 1789270,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 970488,
+					electoralPoints: 7
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 754175,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 24089,
+					electoralPoints: 0
 				}
 			},
 			PA: {
-				totalVotes: 453423665344232,
+				totalVotes: 5753670,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 2990274,
+					electoralPoints: 20
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 2680434,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 49991,
+					electoralPoints: 0
 				}
 			},
 			RI: {
-				totalVotes: 453423665344232,
+				totalVotes: 446049,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 279677,
+					electoralPoints: 4
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 157204,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 4388,
+					electoralPoints: 0
 				}
 			},
 			SC: {
-				totalVotes: 453423665344232,
+				totalVotes: 1964118,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 865941,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 1071645,
+					electoralPoints: 9
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 16321,
+					electoralPoints: 0
 				}
 			},
 			SD: {
-				totalVotes: 453423665344232,
+				totalVotes: 363815,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 145039,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 210610,
+					electoralPoints: 3
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 5795,
+					electoralPoints: 0
 				}
 			},
 			TN: {
-				totalVotes: 453423665344232,
+				totalVotes: 2458577,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 960709,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 1462330,
+					electoralPoints: 11
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 18623,
+					electoralPoints: 0
 				}
 			},
 			TX: {
-				totalVotes: 453423665344232,
+				totalVotes: 7993851,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 3308124,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 4569843,
+					electoralPoints: 38
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 88580,
+					electoralPoints: 0
 				}
 			},
 			UT: {
-				totalVotes: 453423665344232,
+				totalVotes: 1017440,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 251813,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 740600,
+					electoralPoints: 6
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 12572,
+					electoralPoints: 0
 				}
 			},
 			VT: {
-				totalVotes: 453423665344232,
+				totalVotes: 299290,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 199239,
+					electoralPoints: 3
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 92698,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 3487,
+					electoralPoints: 0
 				}
 			},
 			VA: {
-				totalVotes: 453423665344232,
+				totalVotes: 3854490,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 1971820,
+					electoralPoints: 13
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 1822522,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 31216,
+					electoralPoints: 0
 				}
 			},
 			WA: {
-				totalVotes: 453423665344232,
+				totalVotes: 3125516,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 1755396,
+					electoralPoints: 12
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 1290670,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 42202,
+					electoralPoints: 0
 				}
 			},
 			WV: {
-				totalVotes: 453423665344232,
+				totalVotes: 670438,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 238269,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 417655,
+					electoralPoints: 5
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 6302,
+					electoralPoints: 0
 				}
 			},
 			WI: {
-				totalVotes: 453423665344232,
+				totalVotes: 3068434,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 1620985,
+					electoralPoints: 10
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 1407966,
+					electoralPoints: 0
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 20439,
+					electoralPoints: 0
 				}
 			},
 			WY: {
-				totalVotes: 453423665344232,
+				totalVotes: 249061,
 				bo: {
-					totalVotes: 2342342341,
-					electoralPoints: 22
+					totalVotes: 69286,
+					electoralPoints: 0
 				},
 				mr: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 170962,
+					electoralPoints: 3
 				},
 				gj: {
-					totalVotes: 234234233,
-					electoralPoints:1
+					totalVotes: 5326,
+					electoralPoints: 0
 				}
 			}
 		}
