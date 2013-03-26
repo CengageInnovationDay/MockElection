@@ -10,7 +10,6 @@ Jax5.DrawSVG.prototype = {
         this.setDragEvents();
         this.setPanEvents();
         this.setZoomEvents();
-        this.setClickEvents();
     },
 
     setDragEvents: function () {
@@ -128,17 +127,6 @@ Jax5.DrawSVG.prototype = {
         curView[2] = defaultWidth * value;
         curView[3] = defaultHeight * value;
         this.SVG.setAttribute('viewBox', curView.join(' '));
-    },
-    setClickEvents: function () {
-        $('.state').click(function () {
-            if ($(this).attr("class") === "state red") {
-                $(this).attr("class", "state blue");
-            } else if ($(this).attr("class") === "state blue") {
-                $(this).attr("class", "state");
-            } else {
-                $(this).attr("class", "state red");
-            }
-        });
     },
     svgInfo: function () {
         return  '<div style="float:left; height: 593px;" id="svgSlider"></div>' +

@@ -1,0 +1,27 @@
+#votesBar{
+	width:1000px;
+	margin-bottom:20px;
+}
+
+#votesBar #republicanBar{
+	display:inline-block;
+	background-color:#FF0000;
+	float:left;
+	height:100%;
+}
+
+#votesBar #democraticBar{
+	display:inline-block;
+	background-color:#0000FF;
+	float:right;
+	height:100%;
+}
+
+#middlePointsBar{
+	position:absolute;
+	left:499px;
+	width:2px;
+	background-color:#d3d3d3;
+	height:40px;
+	top:10px;
+}

@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Election History - Cengage Innovation Day March 2013</title>
+	<script type="text/javascript" src="src/thirdparty/jquery/jquery.js"></script>
+	<script type="text/javascript" src="src/thirdparty/jquery-ui/jquery-ui-1.10.2.custom.js"></script>
+	
+	<script type="text/javascript">
+		var Jax5 = {};
+	</script>
+	<script type="text/javascript" src="src/PresidentalElectionHistory.json"></script>
+	<script type="text/javascript" src="src/DrawSVG.js"></script>
+	<script type="text/javascript" src="src/SelectionBar.js"></script>
+	<script type="text/javascript" src="src/StateSelection.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/svg.css">
+	<link rel="stylesheet" type="text/css" href="css/clickMap.css">
+	<link rel="stylesheet" type="text/css" href="css/thirdparty/jquery-ui/jquery-ui-1.10.2.custom.css">
+</head>
+<body>
+	<div id="svgHolder">
+	</div>
+	<script type="text/javascript">
+		new Jax5.StateSelection();
+	</script>
+</body>
+</html>
