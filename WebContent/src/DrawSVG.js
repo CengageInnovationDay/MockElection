@@ -88,36 +88,36 @@ Jax5.DrawSVG.prototype = {
         });
 
         // mouse wheel zoom logic
-        $(document).bind('mousewheel DOMMouseScroll', function (e) {
-            var delta = 0,
-                element = $svgSlider,
-                value, result, oe;
-            oe = e.originalEvent; // for jQuery >=1.7
-            value = element.slider('value');
-
-            if (oe.wheelDelta) {
-                delta = -oe.wheelDelta;
-            }
-            if (oe.detail) {
-                delta = oe.detail * 40;
-            }
-
-            value -= delta / 8;
-            if (value > 100) {
-                value = 100;
-            }
-            if (value < 0) {
-                value = 0;
-            }
-
-            result = element.slider('option', 'slide').call(element, e, {
-                value: value
-            });
-            if (result !== false) {
-                element.slider('value', value);
-            }
-            return false;
-        });
+//        $(this.svg).bind('mousewheel DOMMouseScroll', function (e) {
+//            var delta = 0,
+//                element = $svgSlider,
+//                value, result, oe;
+//            oe = e.originalEvent; // for jQuery >=1.7
+//            value = element.slider('value');
+//
+//            if (oe.wheelDelta) {
+//                delta = -oe.wheelDelta;
+//            }
+//            if (oe.detail) {
+//                delta = oe.detail * 40;
+//            }
+//
+//            value -= delta / 8;
+//            if (value > 100) {
+//                value = 100;
+//            }
+//            if (value < 0) {
+//                value = 0;
+//            }
+//
+//            result = element.slider('option', 'slide').call(element, e, {
+//                value: value
+//            });
+//            if (result !== false) {
+//                element.slider('value', value);
+//            }
+//            return false;
+//        });
     },
     setZoom: function (value) {
         value = value / 10;
