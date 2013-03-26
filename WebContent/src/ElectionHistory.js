@@ -5,7 +5,6 @@ Jax5.ElectionHistory = function () {
     this.div = this.$div.get(0);
     //this.loadHistory();
     this.showHistory();
-    debugger;
     svg.forYear(Jax5.HistoryObject['2012']);
 };
 
