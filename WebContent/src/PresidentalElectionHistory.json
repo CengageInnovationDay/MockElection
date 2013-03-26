@@ -787,4 +787,587 @@
 			}
 		}
 	}
+
+2008: {
+		candidates: [
+			{
+				name: 'Barack Obama',
+				party: 'Democratic',
+				index: 'bo'
+			},
+			{
+				name: 'John McCain',
+				party: 'Republican',
+				index: 'jm'
+			},
+			{
+				name: 'Gary Johnson',
+				party: 'Libertarian',
+				index: 'gj'
+			}
+		],
+		states: {
+			AL: {
+				totalVotes: 2099819,
+				bo: {
+					totalVotes: 813479,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1266546,
+					electoralPoints: 9
+				}
+			},
+			AK: {
+				totalVotes: 326197,
+				bo: {
+					totalVotes: 123594,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 193841,
+					electoralPoints: 3
+				}
+			},
+			AZ: {
+				totalVotes: 2293475,
+				bo: {
+					totalVotes: 1034707,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1230111,
+					electoralPoints: 10
+				}
+			},
+			AR: {
+				totalVotes: 1086617,
+				bo: {
+					totalVotes: 422310,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 638017,
+					electoralPoints: 6
+				}
+			},
+			CA: {
+				totalVotes: 13561900,
+				bo: {
+					totalVotes: 8274473,
+					electoralPoints: 55
+				},
+				jm: {
+					totalVotes: 5011781,
+					electoralPoints: 0
+				}
+			},
+			CO: {
+				totalVotes: 2401462,
+				bo: {
+					totalVotes: 1288633,
+					electoralPoints: 9
+				},
+				jm: {
+					totalVotes: 1073629,
+					electoralPoints: 0
+				}
+			},
+			CT: {
+				totalVotes: 1646797,
+				bo: {
+					totalVotes: 997772,
+					electoralPoints: 7
+				},
+				jm: {
+					totalVotes: 629428,
+					electoralPoints: 0
+				}
+			},
+			DE: {
+				totalVotes: 412412,
+				bo: {
+					totalVotes: 255459,
+					electoralPoints: 3
+				},
+				jm: {
+					totalVotes: 152374,
+					electoralPoints: 0
+				}
+			},
+			DC: {
+				totalVotes: 265853,
+				bo: {
+					totalVotes: 245800,
+					electoralPoints: 3
+				},
+				jm: {
+					totalVotes: 17367,
+					electoralPoints: 0
+				}
+			},
+			FL: {
+				totalVotes: 8390744,
+				bo: {
+					totalVotes: 4282074,
+					electoralPoints: 28
+				},
+				jm: {
+					totalVotes: 4045624,
+					electoralPoints: 0
+				}
+			},
+			GA: {
+				totalVotes: 3924486,
+				bo: {
+					totalVotes: 1844123,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 2048759,
+					electoralPoints: 15
+				}
+			},
+			HI: {
+				totalVotes: 453568,
+				bo: {
+					totalVotes: 325871,
+					electoralPoints: 4
+				},
+				jm: {
+					totalVotes: 120566,
+					electoralPoints: 0
+				}
+			},
+			ID: {
+				totalVotes: 655122,
+				bo: {
+					totalVotes: 236440,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 403012,
+					electoralPoints: 4
+				}
+			},
+			IL: {
+				totalVotes: 5522371,
+				bo: {
+					totalVotes: 3419348,
+					electoralPoints: 21
+				},
+				jm: {
+					totalVotes: 2031179,
+					electoralPoints: 0
+				}
+			},
+			IN: {
+				totalVotes: 2751054,
+				bo: {
+					totalVotes: 1374039,
+					electoralPoints: 11
+				},
+				jm: {
+					totalVotes: 1345648,
+					electoralPoints: 0
+				}
+			},
+			IA: {
+				totalVotes: 1537123,
+				bo: {
+					totalVotes: 828940,
+					electoralPoints: 7
+				},
+				jm: {
+					totalVotes: 682379,
+					electoralPoints: 0
+				}
+			},
+			KS: {
+				totalVotes: 1235872,
+				bo: {
+					totalVotes: 514765,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 699655,
+					electoralPoints: 6
+				}
+			},
+			KY: {
+				totalVotes: 1826620,
+				bo: {
+					totalVotes: 751985,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1048462,
+					electoralPoints: 8
+				}
+			},
+			LA: {
+				totalVotes: 1960761,
+				bo: {
+					totalVotes: 782989,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1148275,
+					electoralPoints: 8
+				}
+			},
+			ME: {
+				totalVotes: 731163,
+				bo: {
+					totalVotes: 421923,
+					electoralPoints: 2
+				},
+				jm: {
+					totalVotes: 295273,
+					electoralPoints: 0
+				}
+			},
+			MD: {
+				totalVotes: 2631596,
+				bo: {
+					totalVotes: 1629467,
+					electoralPoints: 10
+				},
+				jm: {
+					totalVotes: 959862,
+					electoralPoints: 0
+				}
+			},
+			MA: {
+				totalVotes: 3080985,
+				bo: {
+					totalVotes: 1904097,
+					electoralPoints: 12
+				},
+				jm: {
+					totalVotes: 1108854,
+					electoralPoints: 0
+				}
+			},
+			MI: {
+				totalVotes: 5001766,
+				bo: {
+					totalVotes: 2872579,
+					electoralPoints: 17
+				},
+				jm: {
+					totalVotes: 2048639,
+					electoralPoints: 0
+				}
+			},
+			MN: {
+				totalVotes: 2910369,
+				bo: {
+					totalVotes: 1573354,
+					electoralPoints: 10
+				},
+				jm: {
+					totalVotes: 1275409,
+					electoralPoints: 0
+				}
+			},
+			MS: {
+				totalVotes: 1289865,
+				bo: {
+					totalVotes: 554662,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 724597,
+					electoralPoints: 6
+				}
+			},
+			MO: {
+				totalVotes: 2925205,
+				bo: {
+					totalVotes: 1441911,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1445814,
+					electoralPoints: 11
+				}
+			},
+			MT: {
+				totalVotes: 490302,
+				bo: {
+					totalVotes: 231667,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 242763,
+					electoralPoints: 3
+				}
+			},
+			NE: {
+				totalVotes: 801281,
+				bo: {
+					totalVotes: 333319,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 452979,
+					electoralPoints: 2
+				}
+			},
+			NV: {
+				totalVotes: 967848,
+				bo: {
+					totalVotes: 533736,
+					electoralPoints: 5
+				},
+				jm: {
+					totalVotes: 412827,
+					electoralPoints: 0
+				}
+			},
+			NH: {
+				totalVotes: 710970,
+				bo: {
+					totalVotes: 384826,
+					electoralPoints: 4
+				},
+				jm: {
+					totalVotes: 316534,
+					electoralPoints: 0
+				}
+			},
+			NJ: {
+				totalVotes: 3868237,
+				bo: {
+					totalVotes: 2215422,
+					electoralPoints: 15
+				},
+				jm: {
+					totalVotes: 1613207,
+					electoralPoints: 0
+				}
+			},
+			NM: {
+				totalVotes: 830158,
+				bo: {
+					totalVotes: 472422,
+					electoralPoints: 5
+				},
+				jm: {
+					totalVotes: 346832,
+					electoralPoints: 0
+				}
+			},
+			NY: {
+				totalVotes: 7640931,
+				bo: {
+					totalVotes: 4804945,
+					electoralPoints: 31
+				},
+				jm: {
+					totalVotes: 2752771,
+					electoralPoints: 0
+				}
+			},
+			NC: {
+				totalVotes: 4310789,
+				bo: {
+					totalVotes: 2142651,
+					electoralPoints: 15
+				},
+				jm: {
+					totalVotes: 2128474,
+					electoralPoints: 0
+				}
+			},
+			ND: {
+				totalVotes: 316621,
+				bo: {
+					totalVotes: 141278,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 168601,
+					electoralPoints: 3
+				}
+			},
+			OH: {
+				totalVotes: 5708350,
+				bo: {
+					totalVotes: 2940044,
+					electoralPoints: 20
+				},
+				jm: {
+					totalVotes: 2677820,
+					electoralPoints: 0
+				}
+			},
+			OK: {
+				totalVotes: 1462661,
+				bo: {
+					totalVotes: 502496,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 960165,
+					electoralPoints: 7
+				}
+			},
+			OR: {
+				totalVotes: 1827864,
+				bo: {
+					totalVotes: 1037291,
+					electoralPoints: 7
+				},
+				jm: {
+					totalVotes: 738475,
+					electoralPoints: 0
+				}
+			},
+			PA: {
+				totalVotes: 6013272,
+				bo: {
+					totalVotes: 3276363,
+					electoralPoints: 21
+				},
+				jm: {
+					totalVotes: 2655885,
+					electoralPoints: 0
+				}
+			},
+			RI: {
+				totalVotes: 471766,
+				bo: {
+					totalVotes: 296571,
+					electoralPoints: 4
+				},
+				jm: {
+					totalVotes: 165391,
+					electoralPoints: 0
+				}
+			},
+			SC: {
+				totalVotes: 1920969,
+				bo: {
+					totalVotes: 862449,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1034896,
+					electoralPoints: 8
+				}
+			},
+			SD: {
+				totalVotes: 381975,
+				bo: {
+					totalVotes: 170924,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 203054,
+					electoralPoints: 3
+				}
+			},
+			TN: {
+				totalVotes: 2599749,
+				bo: {
+					totalVotes: 1087437,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 1479178,
+					electoralPoints: 11
+				}
+			},
+			TX: {
+				totalVotes: 8077795,
+				bo: {
+					totalVotes: 3528633,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 4479328,
+					electoralPoints: 34
+				}
+			},
+			UT: {
+				totalVotes: 952370,
+				bo: {
+					totalVotes: 327670,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 596030,
+					electoralPoints: 5
+				}
+			},
+			VT: {
+				totalVotes: 325046,
+				bo: {
+					totalVotes: 219262,
+					electoralPoints: 3
+				},
+				jm: {
+					totalVotes: 98974,
+					electoralPoints: 0
+				}
+			},
+			VA: {
+				totalVotes: 3723260,
+				bo: {
+					totalVotes: 1959532,
+					electoralPoints: 13
+				},
+				jm: {
+					totalVotes: 1725005,
+					electoralPoints: 0
+				}
+			},
+			WA: {
+				totalVotes: 3036878,
+				bo: {
+					totalVotes: 1750848,
+					electoralPoints: 11
+				},
+				jm: {
+					totalVotes: 1229216,
+					electoralPoints: 0
+				}
+			},
+			WV: {
+				totalVotes: 713451,
+				bo: {
+					totalVotes: 303857,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 397466,
+					electoralPoints: 5
+				}
+			},
+			WI: {
+				totalVotes: 2983417,
+				bo: {
+					totalVotes: 1677211,
+					electoralPoints: 10
+				},
+				jm: {
+					totalVotes: 1262393,
+					electoralPoints: 0
+				}
+			},
+			WY: {
+				totalVotes: 254658,
+				bo: {
+					totalVotes: 82868,
+					electoralPoints: 0
+				},
+				jm: {
+					totalVotes: 164958,
+					electoralPoints: 3
+				}
+			}
+		}
+	}
 }
