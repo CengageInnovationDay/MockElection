@@ -34,8 +34,14 @@ Jax5.StateSelection.prototype = {
                         totalStateVotes += curState[candidate].electoralPoints;
                     }
                 }
-                statesHolder.append('<li jaxID="' + state + '" class="ui-widget-content stateListItem">' + state + '<span>' + totalStateVotes + '</span></li>');
+                statesHolder.append('<li jaxID="' + state + '" class="ui-widget-content stateListItem" title>' + state + '<span>' + totalStateVotes + '</span></li>');
             }
+            $('.stateListItem').tooltip({ 
+                content: function(){
+                    return Jax5.stateIdToStateName[$(this).attr('jaxID')];
+                },
+                position: { my: "left top-30", at: "right top", collision: "flipfit" }
+            });
         },
         setClickEvents: function () {
             this.stateClickEvent();
