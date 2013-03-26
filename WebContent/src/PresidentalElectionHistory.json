@@ -82,6 +82,10 @@ Jax5.HistoryObject = {
                 }
             },
             "CA": {
+                "issues": {
+                    "abortion": 1,
+                    "immigration-reform": 1
+                },
                 "totalVotes": 13038547,
                 "bo": {
                     "totalVotes": 7854285,
