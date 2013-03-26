@@ -9,12 +9,13 @@ Jax5.ElectionHistory = function () {
 	this.bar = new Jax5.SelectionBar();
     this.forYear(Jax5.HistoryObject[this.yearSelected]);
     this.setInfoClickEvent();
+    $('#theGreatList LI:first').addClass('ui-selected');
 };
 
 Jax5.ElectionHistory.prototype = {
 		historyHolder: function() {
-			return '<div id="electionHisDiv" style="width:250px; border:1px dotted green;float:left;"></div>' +
-			       '<div id="stateInfo" style="width:250px; border:1px dotted green; float:left;"></div>' ;
+			return '<div id="electionHisDiv" style="width:250px; float:left;"></div>' +
+			       '<div id="stateInfo" style="width:250px; border:1px solid black; float:left;"><h2>Click on a state to see more information</h2></div>' ;
 		},
 //		loadHistory: function(){
 //			var that = this;
@@ -42,18 +43,18 @@ Jax5.ElectionHistory.prototype = {
 				selected: function(event, ui) {
 					that.yearSelected = $(ui.selected).attr('jaxYear')
 					that.forYear(Jax5.HistoryObject[that.yearSelected]);
-					$('#stateInfo').html('');
+					$('#stateInfo').html('<h2>Click on a state to see more information</h2>');
 				}
 			});
 		},
-		showHistoricalYear: function(data,year) {
-			this.listHolder.append('<li jaxYear="' + year + '" class="ui-widget-content">' + year + '</li>');
+		showHistoricalYear: function(data,year) {  
+			this.listHolder.append('<li style="height:auto;width:175px;" jaxYear="' + year + '" class="ui-widget-content">' + year + this.listCandidates(data.candidates) + '</li>');
 		
 		},
 		listCandidates: function(candidates) {
 			var toReturn = '';
 			$(candidates).each(function(){
-				toReturn = toReturn + '<li>' + this.name + ' (' + this.party + ')</li>';
+				toReturn = toReturn + '<br /><span>' + this.name + ' (' + this.party + ')</span>';
 			});
 			return toReturn;
 		},
@@ -66,14 +67,14 @@ Jax5.ElectionHistory.prototype = {
         		var info = '';
         		info += '<h1>' + Jax5.stateIdToStateName[stateIdentifier] + '</h1>';
         		info += '<ul>';
-        		info += '<li>Total Votes: ' + (currentStateData.totalVotes).toLocaleString() + '</li>';
+        		info += '<li>Total Popular Votes: ' + (currentStateData.totalVotes).toLocaleString() + '</li>';
         		for(candidate in currentStateData) {
 	        		if(candidate !== 'totalVotes') {
 	        			info += '<li> Candiate: ' + that.findCandidate(data.candidates, candidate) +
 	        			  '<ul>' +
-	        			     '<li>Votes: ' + (currentStateData[candidate].totalVotes).toLocaleString() + '</li>' +
+	        			     '<li>Popular Votes: ' + (currentStateData[candidate].totalVotes).toLocaleString() + '</li>' +
 	        			     '<li>Electoral Votes: ' + (currentStateData[candidate].electoralPoints).toLocaleString() + '</li>' +
-	        			  '</ul></li>'
+	        			  '</ul></li>';
 	        		}
         		}
 
