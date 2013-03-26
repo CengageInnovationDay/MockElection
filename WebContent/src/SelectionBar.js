@@ -6,8 +6,8 @@ Jax5.SelectionBar = function(totalVotes){
 
 Jax5.SelectionBar.prototype = {
         redrawBars: function(repubVotes, demoVotes) {
-            var redPct = Math.ceil((repubVotes / this.totalVotes) * 100);
-            var bluePct = Math.ceil((demoVotes / this.totalVotes) * 100);
+            var redPct = Math.round((repubVotes / this.totalVotes) * 100);
+            var bluePct = Math.round((demoVotes / this.totalVotes) * 100);
             $('#democraticBar').css('width',bluePct + '%');
             $('#republicanBar').css('width',redPct + '%');
             $('#RepublicanVotes').text(repubVotes);
