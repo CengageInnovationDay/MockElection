@@ -65,13 +65,13 @@ Jax5.ElectionHistory.prototype = {
         		var info = '';
         		info += '<h1>' + Jax5.stateIdToStateName[stateIdentifier] + '</h1>';
         		info += '<ul>';
-        		info += '<li>Total Votes: ' + currentStateData.totalVotes + '</li>';
+        		info += '<li>Total Votes: ' + (currentStateData.totalVotes).toLocaleString() + '</li>';
         		for(candidate in currentStateData) {
 	        		if(candidate !== 'totalVotes') {
 	        			info += '<li> Candiate: ' + that.findCandidate(data.candidates, candidate) +
 	        			  '<ul>' +
-	        			     '<li>Votes: ' + currentStateData[candidate].totalVotes + '</li>' +
-	        			     '<li>Electoral Votes: ' + currentStateData[candidate].electoralPoints + '</li>' +
+	        			     '<li>Votes: ' + (currentStateData[candidate].totalVotes).toLocaleString() + '</li>' +
+	        			     '<li>Electoral Votes: ' + (currentStateData[candidate].electoralPoints).toLocaleString() + '</li>' +
 	        			  '</ul></li>'
 	        		}
         		}
