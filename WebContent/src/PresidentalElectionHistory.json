@@ -1,1365 +1,1368 @@
-//http://en.wikipedia.org/wiki/United_States_presidential_election,_2012
 {
-    years: [2012, 2008, 2004, 2000],
-    2012: {
-        candidates: [{
-                name: 'Barack Obama',
-                party: 'Democratic',
-                index: 'bo'
+    "years": [
+            "2012",
+            "2008",
+            "2004",
+            "2000"
+    ],
+    "2012": {
+        "candidates": [{
+                "name": "Barack Obama",
+                "party": "Democratic",
+                "index": "bo"
             }, {
-                name: 'Mitt Romney',
-                party: 'Republican',
-                index: 'mr'
+                "name": "Mitt Romney",
+                "party": "Republican",
+                "index": "mr"
             }, {
-                name: 'Gary Johnson',
-                party: 'Libertarian',
-                index: 'gj'
+                "name": "Gary Johnson",
+                "party": "Libertarian",
+                "index": "gj"
             }
         ],
-        states: {
-            AL: {
-                totalVotes: 2074338,
-                bo: {
-                    totalVotes: 795696,
-                    electoralPoints: 0
+        "states": {
+            "AL": {
+                "totalVotes": 2074338,
+                "bo": {
+                    "totalVotes": 795696,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1255925,
-                    electoralPoints: 9
+                "mr": {
+                    "totalVotes": 1255925,
+                    "electoralPoints": 9
                 },
-                gj: {
-                    totalVotes: 12328,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 12328,
+                    "electoralPoints": 0
                 }
             },
-            AK: {
-                totalVotes: 300495,
-                bo: {
-                    totalVotes: 122640,
-                    electoralPoints: 0
+            "AK": {
+                "totalVotes": 300495,
+                "bo": {
+                    "totalVotes": 122640,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 164676,
-                    electoralPoints: 3
+                "mr": {
+                    "totalVotes": 164676,
+                    "electoralPoints": 3
                 },
-                gj: {
-                    totalVotes: 7392,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 7392,
+                    "electoralPoints": 0
                 }
             },
-            AZ: {
-                totalVotes: 2299254,
-                bo: {
-                    totalVotes: 1025232,
-                    electoralPoints: 0
+            "AZ": {
+                "totalVotes": 2299254,
+                "bo": {
+                    "totalVotes": 1025232,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1233654,
-                    electoralPoints: 11
+                "mr": {
+                    "totalVotes": 1233654,
+                    "electoralPoints": 11
                 },
-                gj: {
-                    totalVotes: 32100,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 32100,
+                    "electoralPoints": 0
                 }
             },
-            AR: {
-                totalVotes: 1069468,
-                bo: {
-                    totalVotes: 394409,
-                    electoralPoints: 0
+            "AR": {
+                "totalVotes": 1069468,
+                "bo": {
+                    "totalVotes": 394409,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 647744,
-                    electoralPoints: 6
+                "mr": {
+                    "totalVotes": 647744,
+                    "electoralPoints": 6
                 },
-                gj: {
-                    totalVotes: 16276,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 16276,
+                    "electoralPoints": 0
                 }
             },
-            CA: {
-                totalVotes: 13038547,
-                bo: {
-                    totalVotes: 7854285,
-                    electoralPoints: 55
+            "CA": {
+                "totalVotes": 13038547,
+                "bo": {
+                    "totalVotes": 7854285,
+                    "electoralPoints": 55
                 },
-                mr: {
-                    totalVotes: 4839958,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 4839958,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 16276,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 16276,
+                    "electoralPoints": 0
                 }
             },
-            CO: {
-                totalVotes: 2569520,
-                bo: {
-                    totalVotes: 1323101,
-                    electoralPoints: 9
+            "CO": {
+                "totalVotes": 2569520,
+                "bo": {
+                    "totalVotes": 1323101,
+                    "electoralPoints": 9
                 },
-                mr: {
-                    totalVotes: 1185243,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1185243,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 35545,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 35545,
+                    "electoralPoints": 0
                 }
             },
-            CT: {
-                totalVotes: 1558960,
-                bo: {
-                    totalVotes: 905083,
-                    electoralPoints: 7
+            "CT": {
+                "totalVotes": 1558960,
+                "bo": {
+                    "totalVotes": 905083,
+                    "electoralPoints": 7
                 },
-                mr: {
-                    totalVotes: 634892,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 634892,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 12580,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 12580,
+                    "electoralPoints": 0
                 }
             },
-            DE: {
-                totalVotes: 413921,
-                bo: {
-                    totalVotes: 242584,
-                    electoralPoints: 3
+            "DE": {
+                "totalVotes": 413921,
+                "bo": {
+                    "totalVotes": 242584,
+                    "electoralPoints": 3
                 },
-                mr: {
-                    totalVotes: 165484,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 165484,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 3882,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 3882,
+                    "electoralPoints": 0
                 }
             },
-            DC: {
-                totalVotes: 293764,
-                bo: {
-                    totalVotes: 267070,
-                    electoralPoints: 3
+            "DC": {
+                "totalVotes": 293764,
+                "bo": {
+                    "totalVotes": 267070,
+                    "electoralPoints": 3
                 },
-                mr: {
-                    totalVotes: 21381,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 21381,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 2083,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 2083,
+                    "electoralPoints": 0
                 }
             },
-            FL: {
-                totalVotes: 8474179,
-                bo: {
-                    totalVotes: 4237756,
-                    electoralPoints: 29
+            "FL": {
+                "totalVotes": 8474179,
+                "bo": {
+                    "totalVotes": 4237756,
+                    "electoralPoints": 29
                 },
-                mr: {
-                    totalVotes: 4163447,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 4163447,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 44726,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 44726,
+                    "electoralPoints": 0
                 }
             },
-            GA: {
-                totalVotes: 3900050,
-                bo: {
-                    totalVotes: 1773827,
-                    electoralPoints: 0
+            "GA": {
+                "totalVotes": 3900050,
+                "bo": {
+                    "totalVotes": 1773827,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 2078688,
-                    electoralPoints: 16
+                "mr": {
+                    "totalVotes": 2078688,
+                    "electoralPoints": 16
                 },
-                gj: {
-                    totalVotes: 45324,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 45324,
+                    "electoralPoints": 0
                 }
             },
-            HI: {
-                totalVotes: 434697,
-                bo: {
-                    totalVotes: 306658,
-                    electoralPoints: 4
+            "HI": {
+                "totalVotes": 434697,
+                "bo": {
+                    "totalVotes": 306658,
+                    "electoralPoints": 4
                 },
-                mr: {
-                    totalVotes: 121015,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 121015,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 3840,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 3840,
+                    "electoralPoints": 0
                 }
             },
-            ID: {
-                totalVotes: 652274,
-                bo: {
-                    totalVotes: 212787,
-                    electoralPoints: 0
+            "ID": {
+                "totalVotes": 652274,
+                "bo": {
+                    "totalVotes": 212787,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 420911,
-                    electoralPoints: 4
+                "mr": {
+                    "totalVotes": 420911,
+                    "electoralPoints": 4
                 },
-                gj: {
-                    totalVotes: 9453,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 9453,
+                    "electoralPoints": 0
                 }
             },
-            IL: {
-                totalVotes: 5242014,
-                bo: {
-                    totalVotes: 3019512,
-                    electoralPoints: 20
+            "IL": {
+                "totalVotes": 5242014,
+                "bo": {
+                    "totalVotes": 3019512,
+                    "electoralPoints": 20
                 },
-                mr: {
-                    totalVotes: 2135216,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 2135216,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 56229,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 56229,
+                    "electoralPoints": 0
                 }
             },
-            IN: {
-                totalVotes: 2624534,
-                bo: {
-                    totalVotes: 1152887,
-                    electoralPoints: 0
+            "IN": {
+                "totalVotes": 2624534,
+                "bo": {
+                    "totalVotes": 1152887,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1420543,
-                    electoralPoints: 11
+                "mr": {
+                    "totalVotes": 1420543,
+                    "electoralPoints": 11
                 },
-                gj: {
-                    totalVotes: 50111,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 50111,
+                    "electoralPoints": 0
                 }
             },
-            IA: {
-                totalVotes: 1582180,
-                bo: {
-                    totalVotes: 822544,
-                    electoralPoints: 6
+            "IA": {
+                "totalVotes": 1582180,
+                "bo": {
+                    "totalVotes": 822544,
+                    "electoralPoints": 6
                 },
-                mr: {
-                    totalVotes: 730617,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 730617,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 12926,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 12926,
+                    "electoralPoints": 0
                 }
             },
-            KS: {
-                totalVotes: 1159971,
-                bo: {
-                    totalVotes: 440726,
-                    electoralPoints: 0
+            "KS": {
+                "totalVotes": 1159971,
+                "bo": {
+                    "totalVotes": 440726,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 692634,
-                    electoralPoints: 6
+                "mr": {
+                    "totalVotes": 692634,
+                    "electoralPoints": 6
                 },
-                gj: {
-                    totalVotes: 20456,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 20456,
+                    "electoralPoints": 0
                 }
             },
-            KY: {
-                totalVotes: 1797212,
-                bo: {
-                    totalVotes: 679370,
-                    electoralPoints: 0
+            "KY": {
+                "totalVotes": 1797212,
+                "bo": {
+                    "totalVotes": 679370,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1087190,
-                    electoralPoints: 8
+                "mr": {
+                    "totalVotes": 1087190,
+                    "electoralPoints": 8
                 },
-                gj: {
-                    totalVotes: 17063,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 17063,
+                    "electoralPoints": 0
                 }
             },
-            LA: {
-                totalVotes: 1994065,
-                bo: {
-                    totalVotes: 809141,
-                    electoralPoints: 0
+            "LA": {
+                "totalVotes": 1994065,
+                "bo": {
+                    "totalVotes": 809141,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1152262,
-                    electoralPoints: 8
+                "mr": {
+                    "totalVotes": 1152262,
+                    "electoralPoints": 8
                 },
-                gj: {
-                    totalVotes: 18157,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 18157,
+                    "electoralPoints": 0
                 }
             },
-            ME: {
-                totalVotes: 713180,
-                bo: {
-                    totalVotes: 401306,
-                    electoralPoints: 4
+            "ME": {
+                "totalVotes": 713180,
+                "bo": {
+                    "totalVotes": 401306,
+                    "electoralPoints": 4
                 },
-                mr: {
-                    totalVotes: 292276,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 292276,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 9352,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 9352,
+                    "electoralPoints": 0
                 }
             },
-            MD: {
-                totalVotes: 2707327,
-                bo: {
-                    totalVotes: 1677844,
-                    electoralPoints: 10
+            "MD": {
+                "totalVotes": 2707327,
+                "bo": {
+                    "totalVotes": 1677844,
+                    "electoralPoints": 10
                 },
-                mr: {
-                    totalVotes: 971869,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 971869,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 30195,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 30195,
+                    "electoralPoints": 0
                 }
             },
-            MA: {
-                totalVotes: 3167767,
-                bo: {
-                    totalVotes: 1921290,
-                    electoralPoints: 11
+            "MA": {
+                "totalVotes": 3167767,
+                "bo": {
+                    "totalVotes": 1921290,
+                    "electoralPoints": 11
                 },
-                mr: {
-                    totalVotes: 1188314,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1188314,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 30920,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 30920,
+                    "electoralPoints": 0
                 }
             },
-            MI: {
-                totalVotes: 4730961,
-                bo: {
-                    totalVotes: 2564569,
-                    electoralPoints: 16
+            "MI": {
+                "totalVotes": 4730961,
+                "bo": {
+                    "totalVotes": 2564569,
+                    "electoralPoints": 16
                 },
-                mr: {
-                    totalVotes: 2115256,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 2115256,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 7774,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 7774,
+                    "electoralPoints": 0
                 }
             },
-            MN: {
-                totalVotes: 2936561,
-                bo: {
-                    totalVotes: 1546167,
-                    electoralPoints: 10
+            "MN": {
+                "totalVotes": 2936561,
+                "bo": {
+                    "totalVotes": 1546167,
+                    "electoralPoints": 10
                 },
-                mr: {
-                    totalVotes: 1320225,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1320225,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 35098,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 35098,
+                    "electoralPoints": 0
                 }
             },
-            MS: {
-                totalVotes: 1285584,
-                bo: {
-                    totalVotes: 562949,
-                    electoralPoints: 0
+            "MS": {
+                "totalVotes": 1285584,
+                "bo": {
+                    "totalVotes": 562949,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 710746,
-                    electoralPoints: 6
+                "mr": {
+                    "totalVotes": 710746,
+                    "electoralPoints": 6
                 },
-                gj: {
-                    totalVotes: 6676,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 6676,
+                    "electoralPoints": 0
                 }
             },
-            MO: {
-                totalVotes: 2757323,
-                bo: {
-                    totalVotes: 1223796,
-                    electoralPoints: 0
+            "MO": {
+                "totalVotes": 2757323,
+                "bo": {
+                    "totalVotes": 1223796,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1482440,
-                    electoralPoints: 10
+                "mr": {
+                    "totalVotes": 1482440,
+                    "electoralPoints": 10
                 },
-                gj: {
-                    totalVotes: 43151,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 43151,
+                    "electoralPoints": 0
                 }
             },
-            MT: {
-                totalVotes: 484048,
-                bo: {
-                    totalVotes: 201839,
-                    electoralPoints: 0
+            "MT": {
+                "totalVotes": 484048,
+                "bo": {
+                    "totalVotes": 201839,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 267928,
-                    electoralPoints: 3
+                "mr": {
+                    "totalVotes": 267928,
+                    "electoralPoints": 3
                 },
-                gj: {
-                    totalVotes: 14165,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 14165,
+                    "electoralPoints": 0
                 }
             },
-            NE: {
-                totalVotes: 794379,
-                bo: {
-                    totalVotes: 302081,
-                    electoralPoints: 0
+            "NE": {
+                "totalVotes": 794379,
+                "bo": {
+                    "totalVotes": 302081,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 475064,
-                    electoralPoints: 5
+                "mr": {
+                    "totalVotes": 475064,
+                    "electoralPoints": 5
                 },
-                gj: {
-                    totalVotes: 11109,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 11109,
+                    "electoralPoints": 0
                 }
             },
-            NV: {
-                totalVotes: 1014918,
-                bo: {
-                    totalVotes: 531373,
-                    electoralPoints: 6
+            "NV": {
+                "totalVotes": 1014918,
+                "bo": {
+                    "totalVotes": 531373,
+                    "electoralPoints": 6
                 },
-                mr: {
-                    totalVotes: 463567,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 463567,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 10968,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 10968,
+                    "electoralPoints": 0
                 }
             },
-            NH: {
-                totalVotes: 710972,
-                bo: {
-                    totalVotes: 369561,
-                    electoralPoints: 4
+            "NH": {
+                "totalVotes": 710972,
+                "bo": {
+                    "totalVotes": 369561,
+                    "electoralPoints": 4
                 },
-                mr: {
-                    totalVotes: 329918,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 329918,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 8212,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 8212,
+                    "electoralPoints": 0
                 }
             },
-            NJ: {
-                totalVotes: 3640292,
-                bo: {
-                    totalVotes: 2125101,
-                    electoralPoints: 14
+            "NJ": {
+                "totalVotes": 3640292,
+                "bo": {
+                    "totalVotes": 2125101,
+                    "electoralPoints": 14
                 },
-                mr: {
-                    totalVotes: 1477568,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1477568,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 21045,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 21045,
+                    "electoralPoints": 0
                 }
             },
-            NM: {
-                totalVotes: 783758,
-                bo: {
-                    totalVotes: 415335,
-                    electoralPoints: 5
+            "NM": {
+                "totalVotes": 783758,
+                "bo": {
+                    "totalVotes": 415335,
+                    "electoralPoints": 5
                 },
-                mr: {
-                    totalVotes: 335788,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 335788,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 27788,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 27788,
+                    "electoralPoints": 0
                 }
             },
-            NY: {
-                totalVotes: 7070325,
-                bo: {
-                    totalVotes: 4477020,
-                    electoralPoints: 29
+            "NY": {
+                "totalVotes": 7070325,
+                "bo": {
+                    "totalVotes": 4477020,
+                    "electoralPoints": 29
                 },
-                mr: {
-                    totalVotes: 2488531,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 2488531,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 47195,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 47195,
+                    "electoralPoints": 0
                 }
             },
-            NC: {
-                totalVotes: 4505372,
-                bo: {
-                    totalVotes: 2178391,
-                    electoralPoints: 0
+            "NC": {
+                "totalVotes": 4505372,
+                "bo": {
+                    "totalVotes": 2178391,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 2270395,
-                    electoralPoints: 15
+                "mr": {
+                    "totalVotes": 2270395,
+                    "electoralPoints": 15
                 },
-                gj: {
-                    totalVotes: 44515,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 44515,
+                    "electoralPoints": 0
                 }
             },
-            ND: {
-                totalVotes: 322932,
-                bo: {
-                    totalVotes: 124966,
-                    electoralPoints: 0
+            "ND": {
+                "totalVotes": 322932,
+                "bo": {
+                    "totalVotes": 124966,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 188320,
-                    electoralPoints: 3
+                "mr": {
+                    "totalVotes": 188320,
+                    "electoralPoints": 3
                 },
-                gj: {
-                    totalVotes: 5238,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 5238,
+                    "electoralPoints": 0
                 }
             },
-            OH: {
-                totalVotes: 5580840,
-                bo: {
-                    totalVotes: 2827710,
-                    electoralPoints: 18
+            "OH": {
+                "totalVotes": 5580840,
+                "bo": {
+                    "totalVotes": 2827710,
+                    "electoralPoints": 18
                 },
-                mr: {
-                    totalVotes: 2661433,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 2661433,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 49493,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 49493,
+                    "electoralPoints": 0
                 }
             },
-            OK: {
-                totalVotes: 1334872,
-                bo: {
-                    totalVotes: 443547,
-                    electoralPoints: 0
+            "OK": {
+                "totalVotes": 1334872,
+                "bo": {
+                    "totalVotes": 443547,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 891325,
-                    electoralPoints: 7
+                "mr": {
+                    "totalVotes": 891325,
+                    "electoralPoints": 7
                 },
-                gj: {
-                    totalVotes: 0,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 0,
+                    "electoralPoints": 0
                 }
             },
-            OR: {
-                totalVotes: 1789270,
-                bo: {
-                    totalVotes: 970488,
-                    electoralPoints: 7
+            "OR": {
+                "totalVotes": 1789270,
+                "bo": {
+                    "totalVotes": 970488,
+                    "electoralPoints": 7
                 },
-                mr: {
-                    totalVotes: 754175,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 754175,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 24089,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 24089,
+                    "electoralPoints": 0
                 }
             },
-            PA: {
-                totalVotes: 5753670,
-                bo: {
-                    totalVotes: 2990274,
-                    electoralPoints: 20
+            "PA": {
+                "totalVotes": 5753670,
+                "bo": {
+                    "totalVotes": 2990274,
+                    "electoralPoints": 20
                 },
-                mr: {
-                    totalVotes: 2680434,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 2680434,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 49991,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 49991,
+                    "electoralPoints": 0
                 }
             },
-            RI: {
-                totalVotes: 446049,
-                bo: {
-                    totalVotes: 279677,
-                    electoralPoints: 4
+            "RI": {
+                "totalVotes": 446049,
+                "bo": {
+                    "totalVotes": 279677,
+                    "electoralPoints": 4
                 },
-                mr: {
-                    totalVotes: 157204,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 157204,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 4388,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 4388,
+                    "electoralPoints": 0
                 }
             },
-            SC: {
-                totalVotes: 1964118,
-                bo: {
-                    totalVotes: 865941,
-                    electoralPoints: 0
+            "SC": {
+                "totalVotes": 1964118,
+                "bo": {
+                    "totalVotes": 865941,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1071645,
-                    electoralPoints: 9
+                "mr": {
+                    "totalVotes": 1071645,
+                    "electoralPoints": 9
                 },
-                gj: {
-                    totalVotes: 16321,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 16321,
+                    "electoralPoints": 0
                 }
             },
-            SD: {
-                totalVotes: 363815,
-                bo: {
-                    totalVotes: 145039,
-                    electoralPoints: 0
+            "SD": {
+                "totalVotes": 363815,
+                "bo": {
+                    "totalVotes": 145039,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 210610,
-                    electoralPoints: 3
+                "mr": {
+                    "totalVotes": 210610,
+                    "electoralPoints": 3
                 },
-                gj: {
-                    totalVotes: 5795,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 5795,
+                    "electoralPoints": 0
                 }
             },
-            TN: {
-                totalVotes: 2458577,
-                bo: {
-                    totalVotes: 960709,
-                    electoralPoints: 0
+            "TN": {
+                "totalVotes": 2458577,
+                "bo": {
+                    "totalVotes": 960709,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 1462330,
-                    electoralPoints: 11
+                "mr": {
+                    "totalVotes": 1462330,
+                    "electoralPoints": 11
                 },
-                gj: {
-                    totalVotes: 18623,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 18623,
+                    "electoralPoints": 0
                 }
             },
-            TX: {
-                totalVotes: 7993851,
-                bo: {
-                    totalVotes: 3308124,
-                    electoralPoints: 0
+            "TX": {
+                "totalVotes": 7993851,
+                "bo": {
+                    "totalVotes": 3308124,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 4569843,
-                    electoralPoints: 38
+                "mr": {
+                    "totalVotes": 4569843,
+                    "electoralPoints": 38
                 },
-                gj: {
-                    totalVotes: 88580,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 88580,
+                    "electoralPoints": 0
                 }
             },
-            UT: {
-                totalVotes: 1017440,
-                bo: {
-                    totalVotes: 251813,
-                    electoralPoints: 0
+            "UT": {
+                "totalVotes": 1017440,
+                "bo": {
+                    "totalVotes": 251813,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 740600,
-                    electoralPoints: 6
+                "mr": {
+                    "totalVotes": 740600,
+                    "electoralPoints": 6
                 },
-                gj: {
-                    totalVotes: 12572,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 12572,
+                    "electoralPoints": 0
                 }
             },
-            VT: {
-                totalVotes: 299290,
-                bo: {
-                    totalVotes: 199239,
-                    electoralPoints: 3
+            "VT": {
+                "totalVotes": 299290,
+                "bo": {
+                    "totalVotes": 199239,
+                    "electoralPoints": 3
                 },
-                mr: {
-                    totalVotes: 92698,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 92698,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 3487,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 3487,
+                    "electoralPoints": 0
                 }
             },
-            VA: {
-                totalVotes: 3854490,
-                bo: {
-                    totalVotes: 1971820,
-                    electoralPoints: 13
+            "VA": {
+                "totalVotes": 3854490,
+                "bo": {
+                    "totalVotes": 1971820,
+                    "electoralPoints": 13
                 },
-                mr: {
-                    totalVotes: 1822522,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1822522,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 31216,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 31216,
+                    "electoralPoints": 0
                 }
             },
-            WA: {
-                totalVotes: 3125516,
-                bo: {
-                    totalVotes: 1755396,
-                    electoralPoints: 12
+            "WA": {
+                "totalVotes": 3125516,
+                "bo": {
+                    "totalVotes": 1755396,
+                    "electoralPoints": 12
                 },
-                mr: {
-                    totalVotes: 1290670,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1290670,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 42202,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 42202,
+                    "electoralPoints": 0
                 }
             },
-            WV: {
-                totalVotes: 670438,
-                bo: {
-                    totalVotes: 238269,
-                    electoralPoints: 0
+            "WV": {
+                "totalVotes": 670438,
+                "bo": {
+                    "totalVotes": 238269,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 417655,
-                    electoralPoints: 5
+                "mr": {
+                    "totalVotes": 417655,
+                    "electoralPoints": 5
                 },
-                gj: {
-                    totalVotes: 6302,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 6302,
+                    "electoralPoints": 0
                 }
             },
-            WI: {
-                totalVotes: 3068434,
-                bo: {
-                    totalVotes: 1620985,
-                    electoralPoints: 10
+            "WI": {
+                "totalVotes": 3068434,
+                "bo": {
+                    "totalVotes": 1620985,
+                    "electoralPoints": 10
                 },
-                mr: {
-                    totalVotes: 1407966,
-                    electoralPoints: 0
+                "mr": {
+                    "totalVotes": 1407966,
+                    "electoralPoints": 0
                 },
-                gj: {
-                    totalVotes: 20439,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 20439,
+                    "electoralPoints": 0
                 }
             },
-            WY: {
-                totalVotes: 249061,
-                bo: {
-                    totalVotes: 69286,
-                    electoralPoints: 0
+            "WY": {
+                "totalVotes": 249061,
+                "bo": {
+                    "totalVotes": 69286,
+                    "electoralPoints": 0
                 },
-                mr: {
-                    totalVotes: 170962,
-                    electoralPoints: 3
+                "mr": {
+                    "totalVotes": 170962,
+                    "electoralPoints": 3
                 },
-                gj: {
-                    totalVotes: 5326,
-                    electoralPoints: 0
+                "gj": {
+                    "totalVotes": 5326,
+                    "electoralPoints": 0
                 }
             }
         }
-    }
-
-    2008: {
-        candidates: [{
-                name: 'Barack Obama',
-                party: 'Democratic',
-                index: 'bo'
+    },
+    "2008": {
+        "candidates": [{
+                "name": "Barack Obama",
+                "party": "Democratic",
+                "index": "bo"
             }, {
-                name: 'John McCain',
-                party: 'Republican',
-                index: 'jm'
+                "name": "John McCain",
+                "party": "Republican",
+                "index": "jm"
             }, {
-                name: 'Gary Johnson',
-                party: 'Libertarian',
-                index: 'gj'
+                "name": "Gary Johnson",
+                "party": "Libertarian",
+                "index": "gj"
             }
         ],
-        states: {
-            AL: {
-                totalVotes: 2099819,
-                bo: {
-                    totalVotes: 813479,
-                    electoralPoints: 0
+        "states": {
+            "AL": {
+                "totalVotes": 2099819,
+                "bo": {
+                    "totalVotes": 813479,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1266546,
-                    electoralPoints: 9
+                "jm": {
+                    "totalVotes": 1266546,
+                    "electoralPoints": 9
                 }
             },
-            AK: {
-                totalVotes: 326197,
-                bo: {
-                    totalVotes: 123594,
-                    electoralPoints: 0
+            "AK": {
+                "totalVotes": 326197,
+                "bo": {
+                    "totalVotes": 123594,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 193841,
-                    electoralPoints: 3
+                "jm": {
+                    "totalVotes": 193841,
+                    "electoralPoints": 3
                 }
             },
-            AZ: {
-                totalVotes: 2293475,
-                bo: {
-                    totalVotes: 1034707,
-                    electoralPoints: 0
+            "AZ": {
+                "totalVotes": 2293475,
+                "bo": {
+                    "totalVotes": 1034707,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1230111,
-                    electoralPoints: 10
+                "jm": {
+                    "totalVotes": 1230111,
+                    "electoralPoints": 10
                 }
             },
-            AR: {
-                totalVotes: 1086617,
-                bo: {
-                    totalVotes: 422310,
-                    electoralPoints: 0
+            "AR": {
+                "totalVotes": 1086617,
+                "bo": {
+                    "totalVotes": 422310,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 638017,
-                    electoralPoints: 6
+                "jm": {
+                    "totalVotes": 638017,
+                    "electoralPoints": 6
                 }
             },
-            CA: {
-                totalVotes: 13561900,
-                bo: {
-                    totalVotes: 8274473,
-                    electoralPoints: 55
+            "CA": {
+                "totalVotes": 13561900,
+                "bo": {
+                    "totalVotes": 8274473,
+                    "electoralPoints": 55
                 },
-                jm: {
-                    totalVotes: 5011781,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 5011781,
+                    "electoralPoints": 0
                 }
             },
-            CO: {
-                totalVotes: 2401462,
-                bo: {
-                    totalVotes: 1288633,
-                    electoralPoints: 9
+            "CO": {
+                "totalVotes": 2401462,
+                "bo": {
+                    "totalVotes": 1288633,
+                    "electoralPoints": 9
                 },
-                jm: {
-                    totalVotes: 1073629,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1073629,
+                    "electoralPoints": 0
                 }
             },
-            CT: {
-                totalVotes: 1646797,
-                bo: {
-                    totalVotes: 997772,
-                    electoralPoints: 7
+            "CT": {
+                "totalVotes": 1646797,
+                "bo": {
+                    "totalVotes": 997772,
+                    "electoralPoints": 7
                 },
-                jm: {
-                    totalVotes: 629428,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 629428,
+                    "electoralPoints": 0
                 }
             },
-            DE: {
-                totalVotes: 412412,
-                bo: {
-                    totalVotes: 255459,
-                    electoralPoints: 3
+            "DE": {
+                "totalVotes": 412412,
+                "bo": {
+                    "totalVotes": 255459,
+                    "electoralPoints": 3
                 },
-                jm: {
-                    totalVotes: 152374,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 152374,
+                    "electoralPoints": 0
                 }
             },
-            DC: {
-                totalVotes: 265853,
-                bo: {
-                    totalVotes: 245800,
-                    electoralPoints: 3
+            "DC": {
+                "totalVotes": 265853,
+                "bo": {
+                    "totalVotes": 245800,
+                    "electoralPoints": 3
                 },
-                jm: {
-                    totalVotes: 17367,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 17367,
+                    "electoralPoints": 0
                 }
             },
-            FL: {
-                totalVotes: 8390744,
-                bo: {
-                    totalVotes: 4282074,
-                    electoralPoints: 28
+            "FL": {
+                "totalVotes": 8390744,
+                "bo": {
+                    "totalVotes": 4282074,
+                    "electoralPoints": 28
                 },
-                jm: {
-                    totalVotes: 4045624,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 4045624,
+                    "electoralPoints": 0
                 }
             },
-            GA: {
-                totalVotes: 3924486,
-                bo: {
-                    totalVotes: 1844123,
-                    electoralPoints: 0
+            "GA": {
+                "totalVotes": 3924486,
+                "bo": {
+                    "totalVotes": 1844123,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 2048759,
-                    electoralPoints: 15
+                "jm": {
+                    "totalVotes": 2048759,
+                    "electoralPoints": 15
                 }
             },
-            HI: {
-                totalVotes: 453568,
-                bo: {
-                    totalVotes: 325871,
-                    electoralPoints: 4
+            "HI": {
+                "totalVotes": 453568,
+                "bo": {
+                    "totalVotes": 325871,
+                    "electoralPoints": 4
                 },
-                jm: {
-                    totalVotes: 120566,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 120566,
+                    "electoralPoints": 0
                 }
             },
-            ID: {
-                totalVotes: 655122,
-                bo: {
-                    totalVotes: 236440,
-                    electoralPoints: 0
+            "ID": {
+                "totalVotes": 655122,
+                "bo": {
+                    "totalVotes": 236440,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 403012,
-                    electoralPoints: 4
+                "jm": {
+                    "totalVotes": 403012,
+                    "electoralPoints": 4
                 }
             },
-            IL: {
-                totalVotes: 5522371,
-                bo: {
-                    totalVotes: 3419348,
-                    electoralPoints: 21
+            "IL": {
+                "totalVotes": 5522371,
+                "bo": {
+                    "totalVotes": 3419348,
+                    "electoralPoints": 21
                 },
-                jm: {
-                    totalVotes: 2031179,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2031179,
+                    "electoralPoints": 0
                 }
             },
-            IN: {
-                totalVotes: 2751054,
-                bo: {
-                    totalVotes: 1374039,
-                    electoralPoints: 11
+            "IN": {
+                "totalVotes": 2751054,
+                "bo": {
+                    "totalVotes": 1374039,
+                    "electoralPoints": 11
                 },
-                jm: {
-                    totalVotes: 1345648,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1345648,
+                    "electoralPoints": 0
                 }
             },
-            IA: {
-                totalVotes: 1537123,
-                bo: {
-                    totalVotes: 828940,
-                    electoralPoints: 7
+            "IA": {
+                "totalVotes": 1537123,
+                "bo": {
+                    "totalVotes": 828940,
+                    "electoralPoints": 7
                 },
-                jm: {
-                    totalVotes: 682379,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 682379,
+                    "electoralPoints": 0
                 }
             },
-            KS: {
-                totalVotes: 1235872,
-                bo: {
-                    totalVotes: 514765,
-                    electoralPoints: 0
+            "KS": {
+                "totalVotes": 1235872,
+                "bo": {
+                    "totalVotes": 514765,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 699655,
-                    electoralPoints: 6
+                "jm": {
+                    "totalVotes": 699655,
+                    "electoralPoints": 6
                 }
             },
-            KY: {
-                totalVotes: 1826620,
-                bo: {
-                    totalVotes: 751985,
-                    electoralPoints: 0
+            "KY": {
+                "totalVotes": 1826620,
+                "bo": {
+                    "totalVotes": 751985,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1048462,
-                    electoralPoints: 8
+                "jm": {
+                    "totalVotes": 1048462,
+                    "electoralPoints": 8
                 }
             },
-            LA: {
-                totalVotes: 1960761,
-                bo: {
-                    totalVotes: 782989,
-                    electoralPoints: 0
+            "LA": {
+                "totalVotes": 1960761,
+                "bo": {
+                    "totalVotes": 782989,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1148275,
-                    electoralPoints: 8
+                "jm": {
+                    "totalVotes": 1148275,
+                    "electoralPoints": 8
                 }
             },
-            ME: {
-                totalVotes: 731163,
-                bo: {
-                    totalVotes: 421923,
-                    electoralPoints: 2
+            "ME": {
+                "totalVotes": 731163,
+                "bo": {
+                    "totalVotes": 421923,
+                    "electoralPoints": 2
                 },
-                jm: {
-                    totalVotes: 295273,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 295273,
+                    "electoralPoints": 0
                 }
             },
-            MD: {
-                totalVotes: 2631596,
-                bo: {
-                    totalVotes: 1629467,
-                    electoralPoints: 10
+            "MD": {
+                "totalVotes": 2631596,
+                "bo": {
+                    "totalVotes": 1629467,
+                    "electoralPoints": 10
                 },
-                jm: {
-                    totalVotes: 959862,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 959862,
+                    "electoralPoints": 0
                 }
             },
-            MA: {
-                totalVotes: 3080985,
-                bo: {
-                    totalVotes: 1904097,
-                    electoralPoints: 12
+            "MA": {
+                "totalVotes": 3080985,
+                "bo": {
+                    "totalVotes": 1904097,
+                    "electoralPoints": 12
                 },
-                jm: {
-                    totalVotes: 1108854,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1108854,
+                    "electoralPoints": 0
                 }
             },
-            MI: {
-                totalVotes: 5001766,
-                bo: {
-                    totalVotes: 2872579,
-                    electoralPoints: 17
+            "MI": {
+                "totalVotes": 5001766,
+                "bo": {
+                    "totalVotes": 2872579,
+                    "electoralPoints": 17
                 },
-                jm: {
-                    totalVotes: 2048639,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2048639,
+                    "electoralPoints": 0
                 }
             },
-            MN: {
-                totalVotes: 2910369,
-                bo: {
-                    totalVotes: 1573354,
-                    electoralPoints: 10
+            "MN": {
+                "totalVotes": 2910369,
+                "bo": {
+                    "totalVotes": 1573354,
+                    "electoralPoints": 10
                 },
-                jm: {
-                    totalVotes: 1275409,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1275409,
+                    "electoralPoints": 0
                 }
             },
-            MS: {
-                totalVotes: 1289865,
-                bo: {
-                    totalVotes: 554662,
-                    electoralPoints: 0
+            "MS": {
+                "totalVotes": 1289865,
+                "bo": {
+                    "totalVotes": 554662,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 724597,
-                    electoralPoints: 6
+                "jm": {
+                    "totalVotes": 724597,
+                    "electoralPoints": 6
                 }
             },
-            MO: {
-                totalVotes: 2925205,
-                bo: {
-                    totalVotes: 1441911,
-                    electoralPoints: 0
+            "MO": {
+                "totalVotes": 2925205,
+                "bo": {
+                    "totalVotes": 1441911,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1445814,
-                    electoralPoints: 11
+                "jm": {
+                    "totalVotes": 1445814,
+                    "electoralPoints": 11
                 }
             },
-            MT: {
-                totalVotes: 490302,
-                bo: {
-                    totalVotes: 231667,
-                    electoralPoints: 0
+            "MT": {
+                "totalVotes": 490302,
+                "bo": {
+                    "totalVotes": 231667,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 242763,
-                    electoralPoints: 3
+                "jm": {
+                    "totalVotes": 242763,
+                    "electoralPoints": 3
                 }
             },
-            NE: {
-                totalVotes: 801281,
-                bo: {
-                    totalVotes: 333319,
-                    electoralPoints: 1
+            "NE": {
+                "totalVotes": 801281,
+                "bo": {
+                    "totalVotes": 333319,
+                    "electoralPoints": 1
                 },
-                jm: {
-                    totalVotes: 452979,
-                    electoralPoints: 4
+                "jm": {
+                    "totalVotes": 452979,
+                    "electoralPoints": 4
                 }
             },
-            NV: {
-                totalVotes: 967848,
-                bo: {
-                    totalVotes: 533736,
-                    electoralPoints: 5
+            "NV": {
+                "totalVotes": 967848,
+                "bo": {
+                    "totalVotes": 533736,
+                    "electoralPoints": 5
                 },
-                jm: {
-                    totalVotes: 412827,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 412827,
+                    "electoralPoints": 0
                 }
             },
-            NH: {
-                totalVotes: 710970,
-                bo: {
-                    totalVotes: 384826,
-                    electoralPoints: 4
+            "NH": {
+                "totalVotes": 710970,
+                "bo": {
+                    "totalVotes": 384826,
+                    "electoralPoints": 4
                 },
-                jm: {
-                    totalVotes: 316534,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 316534,
+                    "electoralPoints": 0
                 }
             },
-            NJ: {
-                totalVotes: 3868237,
-                bo: {
-                    totalVotes: 2215422,
-                    electoralPoints: 15
+            "NJ": {
+                "totalVotes": 3868237,
+                "bo": {
+                    "totalVotes": 2215422,
+                    "electoralPoints": 15
                 },
-                jm: {
-                    totalVotes: 1613207,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1613207,
+                    "electoralPoints": 0
                 }
             },
-            NM: {
-                totalVotes: 830158,
-                bo: {
-                    totalVotes: 472422,
-                    electoralPoints: 5
+            "NM": {
+                "totalVotes": 830158,
+                "bo": {
+                    "totalVotes": 472422,
+                    "electoralPoints": 5
                 },
-                jm: {
-                    totalVotes: 346832,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 346832,
+                    "electoralPoints": 0
                 }
             },
-            NY: {
-                totalVotes: 7640931,
-                bo: {
-                    totalVotes: 4804945,
-                    electoralPoints: 31
+            "NY": {
+                "totalVotes": 7640931,
+                "bo": {
+                    "totalVotes": 4804945,
+                    "electoralPoints": 31
                 },
-                jm: {
-                    totalVotes: 2752771,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2752771,
+                    "electoralPoints": 0
                 }
             },
-            NC: {
-                totalVotes: 4310789,
-                bo: {
-                    totalVotes: 2142651,
-                    electoralPoints: 15
+            "NC": {
+                "totalVotes": 4310789,
+                "bo": {
+                    "totalVotes": 2142651,
+                    "electoralPoints": 15
                 },
-                jm: {
-                    totalVotes: 2128474,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2128474,
+                    "electoralPoints": 0
                 }
             },
-            ND: {
-                totalVotes: 316621,
-                bo: {
-                    totalVotes: 141278,
-                    electoralPoints: 0
+            "ND": {
+                "totalVotes": 316621,
+                "bo": {
+                    "totalVotes": 141278,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 168601,
-                    electoralPoints: 3
+                "jm": {
+                    "totalVotes": 168601,
+                    "electoralPoints": 3
                 }
             },
-            OH: {
-                totalVotes: 5708350,
-                bo: {
-                    totalVotes: 2940044,
-                    electoralPoints: 20
+            "OH": {
+                "totalVotes": 5708350,
+                "bo": {
+                    "totalVotes": 2940044,
+                    "electoralPoints": 20
                 },
-                jm: {
-                    totalVotes: 2677820,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2677820,
+                    "electoralPoints": 0
                 }
             },
-            OK: {
-                totalVotes: 1462661,
-                bo: {
-                    totalVotes: 502496,
-                    electoralPoints: 0
+            "OK": {
+                "totalVotes": 1462661,
+                "bo": {
+                    "totalVotes": 502496,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 960165,
-                    electoralPoints: 7
+                "jm": {
+                    "totalVotes": 960165,
+                    "electoralPoints": 7
                 }
             },
-            OR: {
-                totalVotes: 1827864,
-                bo: {
-                    totalVotes: 1037291,
-                    electoralPoints: 7
+            "OR": {
+                "totalVotes": 1827864,
+                "bo": {
+                    "totalVotes": 1037291,
+                    "electoralPoints": 7
                 },
-                jm: {
-                    totalVotes: 738475,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 738475,
+                    "electoralPoints": 0
                 }
             },
-            PA: {
-                totalVotes: 6013272,
-                bo: {
-                    totalVotes: 3276363,
-                    electoralPoints: 21
+            "PA": {
+                "totalVotes": 6013272,
+                "bo": {
+                    "totalVotes": 3276363,
+                    "electoralPoints": 21
                 },
-                jm: {
-                    totalVotes: 2655885,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 2655885,
+                    "electoralPoints": 0
                 }
             },
-            RI: {
-                totalVotes: 471766,
-                bo: {
-                    totalVotes: 296571,
-                    electoralPoints: 4
+            "RI": {
+                "totalVotes": 471766,
+                "bo": {
+                    "totalVotes": 296571,
+                    "electoralPoints": 4
                 },
-                jm: {
-                    totalVotes: 165391,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 165391,
+                    "electoralPoints": 0
                 }
             },
-            SC: {
-                totalVotes: 1920969,
-                bo: {
-                    totalVotes: 862449,
-                    electoralPoints: 0
+            "SC": {
+                "totalVotes": 1920969,
+                "bo": {
+                    "totalVotes": 862449,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1034896,
-                    electoralPoints: 8
+                "jm": {
+                    "totalVotes": 1034896,
+                    "electoralPoints": 8
                 }
             },
-            SD: {
-                totalVotes: 381975,
-                bo: {
-                    totalVotes: 170924,
-                    electoralPoints: 0
+            "SD": {
+                "totalVotes": 381975,
+                "bo": {
+                    "totalVotes": 170924,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 203054,
-                    electoralPoints: 3
+                "jm": {
+                    "totalVotes": 203054,
+                    "electoralPoints": 3
                 }
             },
-            TN: {
-                totalVotes: 2599749,
-                bo: {
-                    totalVotes: 1087437,
-                    electoralPoints: 0
+            "TN": {
+                "totalVotes": 2599749,
+                "bo": {
+                    "totalVotes": 1087437,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 1479178,
-                    electoralPoints: 11
+                "jm": {
+                    "totalVotes": 1479178,
+                    "electoralPoints": 11
                 }
             },
-            TX: {
-                totalVotes: 8077795,
-                bo: {
-                    totalVotes: 3528633,
-                    electoralPoints: 0
+            "TX": {
+                "totalVotes": 8077795,
+                "bo": {
+                    "totalVotes": 3528633,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 4479328,
-                    electoralPoints: 34
+                "jm": {
+                    "totalVotes": 4479328,
+                    "electoralPoints": 34
                 }
             },
-            UT: {
-                totalVotes: 952370,
-                bo: {
-                    totalVotes: 327670,
-                    electoralPoints: 0
+            "UT": {
+                "totalVotes": 952370,
+                "bo": {
+                    "totalVotes": 327670,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 596030,
-                    electoralPoints: 5
+                "jm": {
+                    "totalVotes": 596030,
+                    "electoralPoints": 5
                 }
             },
-            VT: {
-                totalVotes: 325046,
-                bo: {
-                    totalVotes: 219262,
-                    electoralPoints: 3
+            "VT": {
+                "totalVotes": 325046,
+                "bo": {
+                    "totalVotes": 219262,
+                    "electoralPoints": 3
                 },
-                jm: {
-                    totalVotes: 98974,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 98974,
+                    "electoralPoints": 0
                 }
             },
-            VA: {
-                totalVotes: 3723260,
-                bo: {
-                    totalVotes: 1959532,
-                    electoralPoints: 13
+            "VA": {
+                "totalVotes": 3723260,
+                "bo": {
+                    "totalVotes": 1959532,
+                    "electoralPoints": 13
                 },
-                jm: {
-                    totalVotes: 1725005,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1725005,
+                    "electoralPoints": 0
                 }
             },
-            WA: {
-                totalVotes: 3036878,
-                bo: {
-                    totalVotes: 1750848,
-                    electoralPoints: 11
+            "WA": {
+                "totalVotes": 3036878,
+                "bo": {
+                    "totalVotes": 1750848,
+                    "electoralPoints": 11
                 },
-                jm: {
-                    totalVotes: 1229216,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1229216,
+                    "electoralPoints": 0
                 }
             },
-            WV: {
-                totalVotes: 713451,
-                bo: {
-                    totalVotes: 303857,
-                    electoralPoints: 0
+            "WV": {
+                "totalVotes": 713451,
+                "bo": {
+                    "totalVotes": 303857,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 397466,
-                    electoralPoints: 5
+                "jm": {
+                    "totalVotes": 397466,
+                    "electoralPoints": 5
                 }
             },
-            WI: {
-                totalVotes: 2983417,
-                bo: {
-                    totalVotes: 1677211,
-                    electoralPoints: 10
+            "WI": {
+                "totalVotes": 2983417,
+                "bo": {
+                    "totalVotes": 1677211,
+                    "electoralPoints": 10
                 },
-                jm: {
-                    totalVotes: 1262393,
-                    electoralPoints: 0
+                "jm": {
+                    "totalVotes": 1262393,
+                    "electoralPoints": 0
                 }
             },
-            WY: {
-                totalVotes: 254658,
-                bo: {
-                    totalVotes: 82868,
-                    electoralPoints: 0
+            "WY": {
+                "totalVotes": 254658,
+                "bo": {
+                    "totalVotes": 82868,
+                    "electoralPoints": 0
                 },
-                jm: {
-                    totalVotes: 164958,
-                    electoralPoints: 3
+                "jm": {
+                    "totalVotes": 164958,
+                    "electoralPoints": 3
                 }
             }
         }
