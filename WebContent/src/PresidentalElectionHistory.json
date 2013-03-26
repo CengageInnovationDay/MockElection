@@ -903,7 +903,7 @@ Jax5.HistoryObject = {
                 "totalVotes": 8390744,
                 "bo": {
                     "totalVotes": 4282074,
-                    "electoralPoints": 28
+                    "electoralPoints": 27
                 },
                 "jm": {
                     "totalVotes": 4045624,
@@ -1006,14 +1006,14 @@ Jax5.HistoryObject = {
                 },
                 "jm": {
                     "totalVotes": 1148275,
-                    "electoralPoints": 8
+                    "electoralPoints": 9
                 }
             },
             "ME": {
                 "totalVotes": 731163,
                 "bo": {
                     "totalVotes": 421923,
-                    "electoralPoints": 2
+                    "electoralPoints": 4
                 },
                 "jm": {
                     "totalVotes": 295273,
