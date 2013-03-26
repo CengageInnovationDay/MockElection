@@ -797,10 +797,6 @@ Jax5.HistoryObject = {
                 "name": "John McCain",
                 "party": "Republican",
                 "index": "jm"
-            }, {
-                "name": "Gary Johnson",
-                "party": "Libertarian",
-                "index": "gj"
             }
         ],
         "states": {
