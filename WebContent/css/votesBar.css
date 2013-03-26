@@ -1,3 +1,17 @@
+#votesHolder{
+	width:1000px;
+}
+
+#votesHolder #RepublicanVotesHolder{
+	color:#FF0000;
+	float:left;
+}
+
+#votesHolder #DemocraticVotesHolder{
+	color:#0000FF;
+	float:right;
+}
+
 #votesBar{
 	width:1000px;
 	margin-bottom:20px;
@@ -23,12 +37,12 @@
 	width:2px;
 	background-color:#d3d3d3;
 	height:40px;
-	top:10px;
+	top:25px;
 }
 
 #votesNeededArea{
 	position:absolute;
 	left:490px;
-	top:50px;
+	top:65px;
 	color:#B3B3B3;
 }

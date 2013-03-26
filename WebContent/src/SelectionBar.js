@@ -10,6 +10,8 @@ Jax5.SelectionBar.prototype = {
             var bluePct = Math.ceil((demoVotes / this.totalVotes) * 100);
             $('#democraticBar').css('width',bluePct + '%');
             $('#republicanBar').css('width',redPct + '%');
+            $('#RepublicanVotes').text(repubVotes);
+            $('#DemocraticVotes').text(demoVotes);
         },
         setTotalVotes: function(totalVotes){
             this.totalVotes = totalVotes;
@@ -19,7 +21,10 @@ Jax5.SelectionBar.prototype = {
             $('#votesNeededArea').text(Math.ceil(this.totalVotes/2));
         },
         getBars: function(){
-            return '<div id="votesBar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all">' +
+            return '<div id="votesHolder">' +
+                '<div id="RepublicanVotesHolder">Republican - <span id="RepublicanVotes">0</span></div>' +
+                '<div id="DemocraticVotesHolder">Democratic - <span id="DemocraticVotes">0</span></div></div>' +
+                '<div id="votesBar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all">' +
                 '<div id="republicanBar"></div><div id="democraticBar"></div>' +
                 '</div><div id="middlePointsBar"></div><div id="votesNeededArea"></div>';
         }
