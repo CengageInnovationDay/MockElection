@@ -1108,11 +1108,11 @@
 				totalVotes: 801281,
 				bo: {
 					totalVotes: 333319,
-					electoralPoints: 0
+					electoralPoints: 1
 				},
 				jm: {
 					totalVotes: 452979,
-					electoralPoints: 2
+					electoralPoints: 4
 				}
 			},
 			NV: {
