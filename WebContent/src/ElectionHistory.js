@@ -1,10 +1,12 @@
 Jax5.ElectionHistory = function () {
-	new Jax5.DrawSVG();
+	var svg = new Jax5.DrawSVG();
 	$('#svgHolder').append(this.historyHolder());
     this.$div = $('#electionHisDiv');
     this.div = this.$div.get(0);
     //this.loadHistory();
     this.showHistory();
+    debugger;
+    svg.forYear(Jax5.HistoryObject['2012']);
 };
 
 Jax5.ElectionHistory.prototype = {
