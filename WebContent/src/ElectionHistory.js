@@ -6,7 +6,8 @@ Jax5.ElectionHistory = function () {
     this.div = this.$div.get(0);
     //this.loadHistory();
     this.showHistory();
-    this.svg.forYear(Jax5.HistoryObject[this.yearSelected]);
+	this.bar = new Jax5.SelectionBar();
+    this.forYear(Jax5.HistoryObject[this.yearSelected]);
     this.setInfoClickEvent();
 };
 
@@ -40,7 +41,7 @@ Jax5.ElectionHistory.prototype = {
 			this.listHolder.selectable({
 				selected: function(event, ui) {
 					that.yearSelected = $(ui.selected).attr('jaxYear')
-					that.svg.forYear(Jax5.HistoryObject[that.yearSelected]);
+					that.forYear(Jax5.HistoryObject[that.yearSelected]);
 					$('#stateInfo').html('');
 				}
 			});
@@ -86,5 +87,44 @@ Jax5.ElectionHistory.prototype = {
         			return candidates[i].name;
         		}
         	}
+        },
+        forYear: function(data) {
+    		var allStates =	$('.state');
+    		var stateData = data.states;
+    		var candidates = data.candidates;
+            var demoVotes = 0;
+            var repVotes = 0;
+
+    		allStates.each(function() {
+    			var state = this;
+    		    var stateIdentifier = state.id;
+    		    var currentStateData = stateData[stateIdentifier];
+
+    	        var stateWinner, winnerPoints = 0;
+
+    		    for(var candidate in currentStateData) {
+    			    if(currentStateData[candidate].electoralPoints && currentStateData[candidate].electoralPoints > winnerPoints){
+    			    	stateWinner = candidate;
+    			    	winnerPoints = currentStateData[candidate].electoralPoints;
+    			    }
+    		    }
+    		    
+    		    $(candidates).each(function() {
+    		    	if (this.index === stateWinner) {
+    		    		if (this.party === 'Democratic') {
+    		    			demoVotes = demoVotes + winnerPoints;
+    		    		    $(state).attr("class", "state blue");
+    		    		} else if(this.party === 'Republican') {
+    		    			repVotes = repVotes + winnerPoints;
+    		    			$(state).attr("class", "state red");
+    		    		} else {
+    		    			$(state).attr("class", "state yellow");
+    		    		}
+    		    		return;
+    		    	}
+    		    });
+    		});
+    		this.bar.setTotalVotes(repVotes + demoVotes);
+    		this.bar.redrawBars(repVotes, demoVotes);
         }
 };

@@ -3,7 +3,6 @@ Jax5.DrawSVG = function () {
     this.$SVG = $('#statesSVG');
     this.SVG = this.$SVG.get(0);
     this.assignEvents();
-	this.bar = new Jax5.SelectionBar();
 };
 
 Jax5.DrawSVG.prototype = {
@@ -137,45 +136,6 @@ Jax5.DrawSVG.prototype = {
             },
             position: { my: "left top-30", at: "right top", collision: "flipfit" }
         });
-    },
-    forYear: function(data) {
-		var allStates =	$('.state');
-		var stateData = data.states;
-		var candidates = data.candidates;
-        var demoVotes = 0;
-        var repVotes = 0;
-
-		allStates.each(function() {
-			var state = this;
-		    var stateIdentifier = state.id;
-		    var currentStateData = stateData[stateIdentifier];
-
-	        var stateWinner, winnerPoints = 0;
-
-		    for(var candidate in currentStateData) {
-			    if(currentStateData[candidate].electoralPoints && currentStateData[candidate].electoralPoints > winnerPoints){
-			    	stateWinner = candidate;
-			    	winnerPoints = currentStateData[candidate].electoralPoints;
-			    }
-		    }
-		    
-		    $(candidates).each(function() {
-		    	if (this.index === stateWinner) {
-		    		if (this.party === 'Democratic') {
-		    			demoVotes = demoVotes + winnerPoints;
-		    		    $(state).attr("class", "state blue");
-		    		} else if(this.party === 'Republican') {
-		    			repVotes = repVotes + winnerPoints;
-		    			$(state).attr("class", "state red");
-		    		} else {
-		    			$(state).attr("class", "state yellow");
-		    		}
-		    		return;
-		    	}
-		    });
-		});
-		this.bar.setTotalVotes(repVotes + demoVotes);
-		this.bar.redrawBars(repVotes, demoVotes);
     },
     svgInfo: function () {
         return  '<div style="float:left; height: 593px;" id="svgSlider"></div>' +
