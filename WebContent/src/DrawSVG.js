@@ -128,6 +128,43 @@ Jax5.DrawSVG.prototype = {
         curView[3] = defaultHeight * value;
         this.SVG.setAttribute('viewBox', curView.join(' '));
     },
+<<<<<<< HEAD
+=======
+    
+    forYear: function(data) {
+		var allStates =	$('.state');
+		var stateData = data.states;
+		var candidates = data.candidates;
+
+		allStates.each(function() {
+			var state = this;
+		    var stateIdentifier = state.id;
+		    var currentStateData = stateData[stateIdentifier];
+
+	        var stateWinner, winnerPoints = 0;
+		    for(var candidate in currentStateData) {
+			    if(currentStateData[candidate].electoralPoints && currentStateData[candidate].electoralPoints > winnerPoints){
+			    	stateWinner = candidate;
+			    	winnerPoints = currentStateData[candidate].electoralPoints;
+			    }
+		    }
+		    
+		    $(candidates).each(function() {
+		    	if (this.index === stateWinner) {
+		    		if (this.party === 'Democratic') {
+		    		    $(state).attr("class", "state blue");
+		    		} else if(this.party === 'Republican') {
+		    			$(state).attr("class", "state red");
+		    		} else {
+		    			$(state).attr("class", "state yellow");
+		    		}
+		    		return;
+		    	}
+		    });
+		});
+    },
+
+>>>>>>> f83ffa219d092f54cfaed26f40ca1203428d88df
     svgInfo: function () {
         return  '<div style="float:left; height: 593px;" id="svgSlider"></div>' +
         '<svg style="float:left;" id="statesSVG" width="959" height="593" viewBox="0 0 959 593">' +
