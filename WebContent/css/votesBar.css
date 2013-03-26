@@ -25,3 +25,10 @@
 	height:40px;
 	top:10px;
 }
+
+#votesNeededArea{
+	position:absolute;
+	left:490px;
+	top:50px;
+	color:#B3B3B3;
+}
