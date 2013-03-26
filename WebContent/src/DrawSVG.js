@@ -128,9 +128,6 @@ Jax5.DrawSVG.prototype = {
         curView[3] = defaultHeight * value;
         this.SVG.setAttribute('viewBox', curView.join(' '));
     },
-<<<<<<< HEAD
-=======
-    
     forYear: function(data) {
 		var allStates =	$('.state');
 		var stateData = data.states;
@@ -163,8 +160,6 @@ Jax5.DrawSVG.prototype = {
 		    });
 		});
     },
-
->>>>>>> f83ffa219d092f54cfaed26f40ca1203428d88df
     svgInfo: function () {
         return  '<div style="float:left; height: 593px;" id="svgSlider"></div>' +
         '<svg style="float:left;" id="statesSVG" width="959" height="593" viewBox="0 0 959 593">' +
