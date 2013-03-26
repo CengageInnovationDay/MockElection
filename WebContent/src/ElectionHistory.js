@@ -63,6 +63,7 @@ Jax5.ElectionHistory.prototype = {
         		var data = Jax5.HistoryObject[that.yearSelected];
         		var currentStateData = data.states[stateIdentifier];
         		var info = '';
+        		info += '<h1>' + Jax5.stateIdToStateName[stateIdentifier] + '</h1>';
         		info += '<ul>';
         		info += '<li>Total Votes: ' + currentStateData.totalVotes + '</li>';
         		for(candidate in currentStateData) {
